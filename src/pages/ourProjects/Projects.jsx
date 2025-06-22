@@ -27,7 +27,7 @@ const Projects = () => {
           </p>
           <Button
             text="VIEW MORE"
-            button="button1"
+            button="button4"
             icons="icon2"
             img={<img src={arrowright} alt="arrowright" />}
           />
@@ -45,7 +45,7 @@ const Projects = () => {
           </p>
           <Button
             text="VIEW MORE"
-            button="button1"
+            button="button4"
             icons="icon2"
             img={<img src={arrowright} alt="arrowright" />}
           />
@@ -63,7 +63,7 @@ const Projects = () => {
           </p>
           <Button
             text="VIEW MORE"
-            button="button1"
+            button="button4"
             icons="icon2"
             img={<img src={arrowright} alt="arrowright" />}
           />

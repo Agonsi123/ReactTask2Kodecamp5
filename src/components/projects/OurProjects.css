@@ -23,6 +23,14 @@
 .topLayer img{
     height: 255px;
 }
+.image5Cont{
+    top: 60px;
+    left: 60px;
+}
+.image5Cont h4{
+    font-size: 36px;
+    line-height: 36px;
+}
 .bottomLayer{
     display: flex;
     gap: 30px;
@@ -60,6 +68,14 @@
     }
     .topLayer img{
         width: 320px;
+    }
+    .image5Cont{
+        top: 60px;
+        left: 60px;
+    }
+    .image5Cont h4{
+        font-size: 36px;
+        line-height: 36px;
     }
     .bottomLayer img{
         width: 204px;

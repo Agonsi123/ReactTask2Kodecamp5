@@ -31,7 +31,7 @@ const About = () => {
         <div className='readMoreBtn'>
           <Button
             text="READ MORE"
-            button="button1"
+            button="button4"
             icons="icon2"
             img={<img src={arrowright} alt="arrowright" />}
           />
