@@ -1,0 +1,163 @@
+.aboutContainer{
+    display: flex;
+    gap: 30px;
+    padding: 150px;
+    flex-basis: 25%;
+}
+.aboutLeft{
+    display: flex;
+    gap: 30px;
+}
+.aboutImg{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aboutImg2{
+    margin-top: 30px;
+}
+.aboutRight{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aboutRight h3{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.aboutRight p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #000000;
+}
+.readMoreBtn{
+    position: relative;
+}
+
+/* Style for Mission Statement */
+.missionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    gap: 40px;
+}
+.missionContainer h3{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.missionContent{
+    display: flex;
+    gap: 80px;
+}
+.missionCont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 55%;
+}
+.missionCont h4{
+    font-size: 200px;
+    line-height: 200px;
+    font-weight: 900;
+    color: #f2f2f2;
+}
+.missionCont p{
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+
+/* Styles for Responsiveness */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .aboutContainer{
+        padding: 50px;
+        gap: 5px;
+    }
+    .aboutLeft{
+        gap: 10px;
+    }
+    .aboutLeft img{
+        width: 150px;
+    }
+    .aboutRight{
+        gap: 10px;
+        text-align: justify;
+    }
+    .aboutRight h3{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .missionContainer h3{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .missionContent{
+        gap: 20px;
+    }
+    .missionCont{
+        gap: 5px;
+    }
+    .missionCont h4{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .missionCont p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 700px) {
+    .aboutContainer{
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 40px;
+    }
+    .aboutLeft, .aboutImg{
+        gap: 10px;
+    }
+    .aboutLeft img{
+        width: 150px;
+    }
+    .aboutRight h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .aboutRight p{
+        font-size: 12px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .aboutRight{
+        gap: 20px;
+    }
+    /* Mission Statement */
+    .missionContainer{
+        padding: 20px;
+    }
+    .missionContainer h3{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .missionContent{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .missionCont h4{
+        font-size: 64px;
+        line-height: 64px;
+        /* font-weight: 300; */
+    }
+    .missionCont p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}

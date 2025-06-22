@@ -1,0 +1,107 @@
+.projectContainer{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.projectHeading{
+    font-size: 64px;
+    line-height: 64px;
+}
+.our{
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.pro{
+    font-weight: 700;
+    color: #333;
+}
+.projectContent{
+    display: flex;
+    flex-basis: 40%;
+    gap: 30px;
+}
+.projectText{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.projectText h4{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #bdbdbd;
+    margin-top: 30px;
+}
+.projectText p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #000;
+}
+.projectArrow{
+    display: flex;
+    gap: 20px;
+}
+
+/* Style for Responsiveness */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .projectContainer{
+        padding: 50px;
+        gap: 20px;
+    }
+    .projectHeading{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .projectContent{
+        gap: 30px;
+    }
+    .projectContentImage{
+        width: 300px;
+        height: 250px;
+    }
+    .projectText{
+        gap: 10px;
+    }
+    .projectText h4{
+        font-size: 32px;
+        line-height: 32px;
+        margin-top: 0;
+    }
+    .projectText p{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    }
+}    
+
+@media (max-width: 700px) {
+    .projectContainer{
+        padding: 20px;
+        gap: 20px;
+    }
+    .projectHeading{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .projectContent{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .projectText{
+        gap: 20px;
+    }
+    .projectText h4{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .projectText p{
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .projectArrow{
+        justify-content: center;
+    }
+}

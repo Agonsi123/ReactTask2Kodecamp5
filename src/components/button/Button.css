@@ -1,0 +1,113 @@
+.button1{
+    display: flex;
+    padding: 16px 20px;
+    width: 140px;
+    background-color: #ffffff;
+}
+.button1 button{
+    position: relative;
+    padding-right: 30px;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    font-weight: 400;
+    background-color: transparent;
+}
+.icon{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    align-self: center;
+}
+.icon2{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    align-self: center;
+}
+.icon2 img{
+    width: 30px;
+}
+
+.button2{
+    display: flex;
+    padding: 16px 20px;
+    width: 150px;
+    background-color: #333333;
+}
+.button2 button{
+    position: relative;
+    padding-right: 30px;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 12px;
+    font-weight: 400;
+    background-color: transparent;
+}
+.button3{
+    padding: 16px 0;
+    width: 110px;
+}
+.button3 button{
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+}
+.icon3 img{
+    position: absolute;
+    width: 20px;
+    top: 27px;
+    left: 90px;
+}
+.icon4{
+    margin-left: 1px;
+    margin-top: 6px;
+}
+
+/* Styles for Responsiveness */
+@media (max-width: 700px) {
+    .button1{
+        /* display: inline-block; */
+        padding: 4px 10px;
+        width: 70px;
+        background-color: none;
+    }
+    .button1 button{
+        padding: 2px;
+        font-size: 8px;
+        line-height: 7px;
+    }
+    .icon{
+        left: 80px;
+        top: 1px;
+    }
+    .icon img, .icon2 img, .icon4 img{
+        width: 10px;
+    }
+    .icon2{
+        left: 70px;
+        top: 1px;
+    }
+    .icon3 img{
+        top: -53px;
+        left: 70px;
+    }
+    .button2{
+        padding: 4px;
+        width: 95px;
+    }
+    .button2 button{
+        font-size: 8px;
+        padding-right: 16px;
+    }
+    .icon4{
+        margin-top: 0;
+    }
+}

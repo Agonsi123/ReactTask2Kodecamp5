@@ -1,0 +1,70 @@
+.ContactUsContainer{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 30px 60px;
+}
+.ContactUsContainer h3{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.ContactUsContent{
+    display: flex;
+    gap: 30px;
+}
+.ContactUsContent form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ContactUsContent form input, .ContactUsContent form textarea{
+    padding: 12px 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 320px;
+}
+.ContactUsContent form input::placeholder, .ContactUsContent form textarea::placeholder{
+    font-size: 14px;
+    line-height: 14px;
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.ContactUsBtn{
+    margin-top: 40px;
+}
+
+/* Styles for Responsiveness */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .ContactUsContainer{
+        padding: 20px 50px;
+    }
+    .ContactUsContainer h3{
+        font-size: 36px;
+    }
+    .ContactUsContent{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .ContactUsContent form input, .ContactUsContent form textarea{
+        width: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .ContactUsContainer{
+        padding: 20px;
+    }
+    .ContactUsContainer h3{
+        font-size: 30px;
+    }
+    .ContactUsContent{
+        flex-direction: column;
+    }
+    .ContactUsContent form input, .ContactUsContent form textarea{
+        width: 270px;
+    }
+}

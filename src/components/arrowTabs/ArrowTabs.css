@@ -1,0 +1,69 @@
+/* Style for ArrowTab */
+.arrows{
+    display: flex;
+    gap: 50px;
+}
+.arrowContainer1{
+    border: 1px solid #f2f2f2;
+    background-color: #ffffff;
+    padding: 3px;
+}
+.arrowContainer{
+    border: 1px solid #f2f2f2;
+    background-color: #f9f9f9;
+    padding: 3px;
+}
+
+/* Style for SlideNumber */
+.number1{
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+.number2{
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.pee{
+    color: #bdbdbd;
+}
+.line{
+    border-right: 2px solid #e0e0e0;
+    padding: 1px;
+    transform: rotate(45deg);
+}
+
+/* Styles for Responsiveness */
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    
+}
+@media (max-width: 700px) {
+    .arrows{
+        gap: 10px;
+        background-color: transparent;
+    }
+    .number1{
+        font-size: 10px;
+        line-height: 10px;
+        gap: 15px;
+        background-color: transparent;
+    }
+    .number2{
+        font-size: 10px;
+        line-height: 10px;
+        gap: 15px;
+    }
+    .arrowContainer, .arrowContainer1{
+        padding: 0;
+    }
+    .arrowContainer1 img, .arrowContainer img{
+        width: 20px;
+    }
+}

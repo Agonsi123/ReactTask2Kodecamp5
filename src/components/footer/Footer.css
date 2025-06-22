@@ -1,0 +1,152 @@
+.FooterContainer{
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+}
+.information h5, .information p, .contacts h5, .contacts p, .FooterRight h5, .contacts p .FooterDown{
+    color: #fff;
+}
+.information h5, .contacts h5, .FooterRight h5{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.information p, .contacts p, .contacts p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    
+}
+.FooterUp{
+    display: flex;
+    gap: 180px;
+    padding: 40px 60px;
+}
+.FooterLeft{
+    display: flex;
+    gap: 50px;
+}
+.FooterLeftContent{
+    display: flex;
+    gap: 160px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+.contacts1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.address, .phone, .email{
+    display: flex;
+    gap: 10px;
+}
+.address img{
+    margin-top: -18px;
+}
+.FooterRight{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socials{
+    display: flex;
+    gap: 40px;
+}
+.FooterDown{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #cbcbcb50;
+    font-family: sans-serif;
+    border-top: 1px solid #334155;
+}
+
+/* Style for Responsiveness */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .FooterUp{
+        gap: 70px;
+    }
+    .FooterLeft{
+        flex-direction: column;
+    }
+    .image13{
+        width: 90px;
+    }
+    .FooterRight{
+        margin-top: 10px;
+    }
+    .socials{
+        gap: 25px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .FooterContainer{
+        margin-top: 20px;
+    }
+    .image13{
+        height: 50px;
+    }
+    .FooterUp{
+        flex-direction: column;
+        padding: 20px;
+        gap: 40px;
+    }
+    .FooterLeft{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .information h5, .contacts h5, .FooterRight h5{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .information p, .contacts p, .contacts p{
+        font-size: 12px;
+    }
+    .FooterLeftContent{
+        gap: 60px;
+    }
+    .information{
+        gap: 3px;
+    }
+    .contacts{
+        gap: 10px;
+    }
+    .contactsContent{
+        gap: 20px;
+    }
+    .contacts1{
+        gap: 10px;
+    }
+    .address img, .phone img, .email img{
+        height: 8px;
+        margin-top: 8px;
+    }
+    .FooterRight{
+        gap: 5px;
+    }
+    .socials{
+        gap: 20px;
+    }
+    .socials img{
+        height: 12px;
+    }
+}
